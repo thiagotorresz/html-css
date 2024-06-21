@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: black;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    padding-top: 60px;
+    letter-spacing: -4px;
+}
+
+p.centro{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main p {
+    font-family: "Farsan", cursive;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+div#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.582);
+}
+
+.paralax{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    display: inline-flex;
+}
+
+div#folha{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.596);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+footer p{
+    padding-top: 5px;
+}
